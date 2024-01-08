@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+body {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    background: url('../img/bg.jpg!d');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Page first Portofolio */
+.button-luncur {
+    width: 150px;
+    cursor: pointer;
+}
+.astronot1 {
+    width: 150px;
+    margin: 15% 0 0 0;
+    
+}
+
+.welcome-card {
+    border-bottom-right-radius: 0px;
+}
+.welcome-text {
+    margin: 7% 0 0 0;
+}
+
+.image-welcome {
+    margin: 20% 0 0 0;
+}
+/* Second Page Portofolio */
+.loading-gif {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+.astronot2 {
+    width: 150px;
+}
+
+.header2 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+
+.logo-gambar {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.keahlian-title {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.keahlian-title1 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.view-more {
+    color: #fff;
+    margin-top: 50px;
+}
+
+.Tips {
+    color: #fff;
+    display: none;
+}
+
+.Tips2 {
+    color: #fff;
+    display: none;
+}
+
+@media only screen and (max-width: 380px) {
+    .header2 {
+        font-size: 1em;
+    }
+    .astronot2 {
+        width: 100px;
+    }
+    .Tips {
+        display: block;
+        font-size: 0.8em;
+        margin-top: -40px;
+    }
+    .Tips2 {
+        display: block;
+        font-size: 0.8em;
+        margin-top: -40px;
+    }
+    .logo-gambar {
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+    }
+    
+    .keahlian-title {
+        font-size: 1em;
+    }
+    .keahlian-title1 {
+        font-size: 1em;
+    }
+    .desk-cards {
+        font-size: 0.8em;
+    }
+}
