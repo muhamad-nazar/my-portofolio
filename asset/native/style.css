@@ -1,0 +1,43 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.awalan {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bg-2 {
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grey-bg {
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+.title-front {
+    font-size: 2.5rem;
+}
+.card {
+    min-height: 400px; /* Sesuaikan tinggi minimum sesuai kebutuhan */
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px; /* Sesuaikan dengan kebutuhan */
+}
+.card-text {
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: -1px;
+    line-height: 1.5;  /* Memberikan spasi yang nyaman antar baris */
+}
+.bg-3 {
+    background-image: url('../img/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+}
